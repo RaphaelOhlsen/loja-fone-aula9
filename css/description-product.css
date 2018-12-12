@@ -1,0 +1,82 @@
+.description-product {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}  
+
+.description-product > .wrap-title {
+  position: relative;
+}
+
+.description-product > .wrap-title .item.-heart,
+.description-product > .wrap-title .title
+{
+  display: inline-block;
+}
+
+.description-product > .wrap-title .title {
+  font-size: 1.56em;
+  margin-bottom: 50px;
+}
+
+
+.description-product > .item {
+  margin-top: 25px;
+  font-size: 1.25em;
+  margin-bottom: 28px;
+  text-transform: uppercase;
+}
+
+.description-product > .wrap-title .item.-heart {
+  position: absolute;
+  transform: translateX(calc(-100% - 46px));
+  top: 10px;
+  cursor: pointer;
+}
+
+.description-product > .wrap-title .item.-heart img:hover {
+  transform: scale(1.3);
+
+}
+
+.description-product > .item.-star {
+  margin-bottom: 10px;
+}
+
+.description-product > .item.-star img {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.description-product > .item.-star img:hover {
+  transform: scale(1.3);
+}
+
+
+.description-product > .item.-star + .item {
+  margin-left: 7px;
+}
+
+.description-product > .item.-info {
+  width: 200px;
+  text-align: right;
+}
+
+.description-product .contrast {
+  text-transform: uppercase;
+  float: left;
+}
+
+.description-product > .text {
+  font-size: 1.125em;
+  line-height: 1.875em;
+  margin-bottom: 30px;
+}
+
+.description-product > .text.-more {
+  margin-bottom: 0;
+}
+
+.description-product .action {
+  text-decoration: none;
+  color: inherit;
+}

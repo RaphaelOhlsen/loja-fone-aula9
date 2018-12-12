@@ -1,0 +1,50 @@
+.header-store {
+  color: #fff;
+  overflow: hidden;
+  margin-bottom: 138px;
+  padding-left: 60px;
+}
+
+.header-store > .title {
+  font-size: 2.5em;
+  font-family: Arial, 'Roboto', sans-serif;
+  float: left;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.header-store > .navigation {
+  font-size: 1.31em;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  float: right;
+}
+
+.header-store .navigation .action {
+  display: inline-block;
+}
+
+.header-store .navigation .action:not(:last-child) {
+  margin-right: 60px;
+}
+
+.header-store .navigation .action:not(:first-child):hover {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 8px;;
+}
+
+.header-store  [type="search"] {
+  background-color: transparent;
+  color: inherit;
+  font-size: 20px;
+  font-family: Arial, 'Roboto', sans-serif;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  width: 358px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-right: 65px;
+}
+.header-store .navigation .action a {
+  text-decoration: none;
+  color: inherit; 
+}
